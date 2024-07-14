@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://Nikita-Mikhin.github.io"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ubicua.automotive.prototype",
+      "sha256_cert_fingerprints": [
+        "B6:A2:32:F6:08:0E:BF:5E:14:0A:E2:77:06:15:56:24:41:6C:C3:75:73:C7:6B:43:AA:01:5F:20:A7:59:48:F8"
+      ]
+    }
+  }
+]
